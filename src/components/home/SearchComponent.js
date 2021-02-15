@@ -46,6 +46,9 @@ const SearchComponent = () => {
 
         return ( 
         <div> 
+            <MetaTags>
+            <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests"></meta>
+            </MetaTags>
             <div className="search_background" >
                 <div className="col-lg-12 col-sm-12 title" >
                     <h1>Weather App</h1>
