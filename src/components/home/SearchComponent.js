@@ -21,7 +21,7 @@ const SearchComponent = () => {
         let e = state.cityName;
         if(e){
             axios
-            .get("http://api.openweathermap.org/data/2.5/weather?q=" + e + "&appid=d6ef8d71936b4b77fe2fce38cc296deb")
+            .get("https://api.openweathermap.org/data/2.5/weather?q=" + e + "&appid=d6ef8d71936b4b77fe2fce38cc296deb")
             .then((response) => {
                 console.log('response' , response);
                 if (response.status === 200) {
