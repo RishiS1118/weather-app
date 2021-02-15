@@ -5,6 +5,7 @@ import searchIcon from '../../assets/images/search.png';
 import './Home.css';
 import swal from "sweetalert";
 import Card from './Card';
+import MetaTags from 'react-meta-tags';
 
 
 const SearchComponent = () => { 
